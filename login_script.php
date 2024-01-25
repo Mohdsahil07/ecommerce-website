@@ -2,7 +2,7 @@
 require ("includes/common.php");
 session_start();
 
-$email=$_POST['lemail'];
+$email=$_POST['email'];
 $email=mysqli_real_escape_string($con,$email);
 
 $password=$_POST['lpassword'];
